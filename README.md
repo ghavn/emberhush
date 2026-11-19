@@ -8,7 +8,9 @@ Created for [GameHavn](https://gamehavn.com) and the community idea [Help Build 
 
 [Open Emberhush](https://ghavn.github.io/emberhush/) · [Source repository](https://github.com/ghavn/emberhush) · [Jochen Labs on GameHavn](https://gamehavn.com/jochen)
 
-The public Pages build is deployed and verified. GameHavn publication is in progress; the required preview upload is being completed before submission.
+[GameHavn prototype](https://gamehavn.com/games/emberhush) · [Original community idea](https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page) · [Stored GameHavn preview](https://gamehavn.com/api/game-images/ab758c27-6b02-4e05-867b-7b39b4443348.webp)
+
+Published as a **Prototype** on **Jochen Labs**, category **Simulation**. Both source and playable links are saved on the original idea association. The preview is stored and optimized by GameHavn; the game itself runs on GitHub Pages.
 
 ## What works
 
@@ -116,7 +118,7 @@ Allowing fullscreen on the parent frame matters; the game itself cannot bypass b
 8. Hide/restore the tab. Check the scene resumes and audio stays consistent with the chosen toggles.
 9. Verify the uploaded preview appears on the saved GameHavn prototype, idea and developer channel, and both outbound links persist after refresh.
 
-Verified on 2026-11-19: strict TypeScript and production build; public Pages deployment from commit `9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`; unauthenticated HTTPS 200 response; interactive Fire/Room selection; independent audio-toggle states; desktop fullscreen entry/exit; control auto-hide and click-to-reveal; 390 × 844 local portrait views; production rendering and controls in an iframe with the exact sandbox above, including fullscreen entry. The real preview is a 97,840-byte JPEG. Audio activation and state changes were verified in-browser; the synthesis was not perceptually assessed through recorded playback. Saved GameHavn listing/category/backlink/image verification remains pending publication. There is no automated visual or audio perceptual test suite; TypeScript/build checks and interactive browser checks are used for this prototype.
+Verified on 2026-11-19: strict TypeScript and production build; public Pages deployment from commit `9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`; unauthenticated HTTPS 200 response; interactive Fire/Room selection; independent audio-toggle states; desktop fullscreen entry/exit; control auto-hide and click-to-reveal; 390 × 844 local portrait views; production rendering and controls in an iframe with the exact sandbox above, including fullscreen entry. The real preview is a 97,840-byte JPEG. Audio activation and state changes were verified in-browser; the synthesis was not perceptually assessed through recorded playback. The saved GameHavn page was refreshed and verified as a Simulation prototype on Jochen Labs. The source redirect resolves publicly to the GitHub repository. The actual saved GameHavn iframe has the exact sandbox/allow values above; Fire/Room selection, the music toggle and the host fullscreen player worked. Reloading resets to Room with audio off. The optimized preview loads on the saved page and developer channel, and the original idea lists this same prototype. The channel → prototype → original idea path was followed successfully. The current GameHavn UI exposes neither a category filter on `/prototypes` nor a separate playable “Open in new tab” control, so those two host UI checks could not be performed. The prototype is present in the unfiltered prototypes list and its saved category is Simulation. The direct playable HTTPS URL was tested separately. The production browser viewport override did not apply reliably during the final responsive retest; the earlier local 390 × 844 visual checks remain the confirmed portrait verification. There is no automated visual or audio perceptual test suite; TypeScript/build checks and interactive browser checks are used for this prototype.
 
 ## Limitations and roadmap
 
@@ -129,3 +131,15 @@ Next useful steps: user-adjustable audio levels, saved preferences, a denser eve
 All scene meshes, texture canvases, flame/snow shaders, icon paths and audio synthesis are authored in this source. The preview is a real screenshot of this implementation. Fonts are local Georgia and Arial/Helvetica fallbacks; there are no font downloads. The melody is based on James Lord Pierpont's **Jingle Bells** (1857), a public-domain composition; no third-party sound recording is used. Dependencies: Three.js (MIT), Vite (MIT), TypeScript (Apache-2.0), and their transitive dependencies retain their respective licenses. See installed package metadata for full notices.
 
 **No license is currently granted for the original project source or its generated assets.** This repository does not include a project LICENSE file. Public availability is not an open-source license; choose and add an explicit license before representing this project as open source.
+
+
+## Publication record
+
+- First working uploaded/deployed source: [`9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`](https://github.com/ghavn/emberhush/commit/9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81). Later commits update this verification record without changing the game build.
+- Public repository: https://github.com/ghavn/emberhush
+- Public playable scene: https://ghavn.github.io/emberhush/
+- GameHavn prototype: https://gamehavn.com/games/emberhush
+- Developer channel: https://gamehavn.com/jochen (`creator-jochenlabs`).
+- Original idea: https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page (`ab0325ac-8d12-4c9e-82b2-92dba256ff6c`).
+- Preview: https://gamehavn.com/api/game-images/ab758c27-6b02-4e05-867b-7b39b4443348.webp (public GET verified; the image endpoint rejects HEAD, so use GET for availability checks).
+- GameHavn listing ID: `305a0e43-d76d-4d49-aa15-62c114b6a2e4`.

@@ -8,7 +8,7 @@ Created for [GameHavn](https://gamehavn.com) and the community idea [Help Build 
 
 [Open Emberhush](https://ghavn.github.io/emberhush/) · [Source repository](https://github.com/ghavn/emberhush) · [Jochen Labs on GameHavn](https://gamehavn.com/jochen)
 
-[GameHavn prototype](https://gamehavn.com/games/emberhush) · [Original community idea](https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page) · [Stored GameHavn preview](https://gamehavn.com/api/game-images/ab758c27-6b02-4e05-867b-7b39b4443348.webp)
+[GameHavn prototype](https://gamehavn.com/games/emberhush) · [Original community idea](https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page) · [Stored GameHavn preview](https://gamehavn.com/api/game-images/3dcc1343-92b9-4fe9-869f-7094c16837cf.webp)
 
 Published as a **Prototype** on **Jochen Labs**, category **Simulation**. Both source and playable links are saved on the original idea association. The preview is stored and optimized by GameHavn; the game itself runs on GitHub Pages.
 
@@ -138,11 +138,11 @@ All scene meshes, texture canvases, flame/snow shaders, icon paths and audio syn
 
 ## Publication record
 
-- First working uploaded/deployed source: [`9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`](https://github.com/ghavn/emberhush/commit/9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81). Later commits update this verification record without changing the game build.
+- First working uploaded/deployed source: [`9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`](https://github.com/ghavn/emberhush/commit/9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81). The fireplace and room update is in [`b9b50a4`](https://github.com/ghavn/emberhush/commit/b9b50a4).
 - Public repository: https://github.com/ghavn/emberhush
 - Public playable scene: https://ghavn.github.io/emberhush/
 - GameHavn prototype: https://gamehavn.com/games/emberhush
 - Developer channel: https://gamehavn.com/jochen (`creator-jochenlabs`).
 - Original idea: https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page (`ab0325ac-8d12-4c9e-82b2-92dba256ff6c`).
-- Preview: https://gamehavn.com/api/game-images/ab758c27-6b02-4e05-867b-7b39b4443348.webp (public GET verified; the image endpoint rejects HEAD, so use GET for availability checks).
+- Preview: https://gamehavn.com/api/game-images/3dcc1343-92b9-4fe9-869f-7094c16837cf.webp (public GET verified; the image endpoint rejects HEAD, so use GET for availability checks).
 - GameHavn listing ID: `305a0e43-d76d-4d49-aa15-62c114b6a2e4`.

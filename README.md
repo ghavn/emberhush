@@ -6,7 +6,9 @@ A little warmth for winter. Emberhush is a small, working Three.js Christmas amb
 
 Created for [GameHavn](https://gamehavn.com) and the community idea [Help Build GameHavn’s Instant Page](https://gamehavn.com/ideas/help-build-gamehavn-s-instant-page). The original idea ID remains `ab0325ac-8d12-4c9e-82b2-92dba256ff6c`.
 
-Public deployment and GameHavn listing: verification pending in the initial source upload. Verified URLs will be recorded here after the production build is deployed and the listing is saved.
+[Open Emberhush](https://ghavn.github.io/emberhush/) · [Source repository](https://github.com/ghavn/emberhush) · [Jochen Labs on GameHavn](https://gamehavn.com/jochen)
+
+The public Pages build is deployed and verified. GameHavn publication is in progress; the required preview upload is being completed before submission.
 
 ## What works
 
@@ -114,7 +116,7 @@ Allowing fullscreen on the parent frame matters; the game itself cannot bypass b
 8. Hide/restore the tab. Check the scene resumes and audio stays consistent with the chosen toggles.
 9. Verify the uploaded preview appears on the saved GameHavn prototype, idea and developer channel, and both outbound links persist after refresh.
 
-Verification results and the exact publication links are recorded after deployment below. There is no automated visual or audio perceptual test suite; TypeScript/build checks and interactive browser checks are used for this prototype.
+Verified on 2026-11-19: strict TypeScript and production build; public Pages deployment from commit `9b8c40c59078f1cbf1e4b7e6584646eb0f0dfb81`; unauthenticated HTTPS 200 response; interactive Fire/Room selection; independent audio-toggle states; desktop fullscreen entry/exit; control auto-hide and click-to-reveal; 390 × 844 local portrait views; production rendering and controls in an iframe with the exact sandbox above, including fullscreen entry. The real preview is a 97,840-byte JPEG. Audio activation and state changes were verified in-browser; the synthesis was not perceptually assessed through recorded playback. Saved GameHavn listing/category/backlink/image verification remains pending publication. There is no automated visual or audio perceptual test suite; TypeScript/build checks and interactive browser checks are used for this prototype.
 
 ## Limitations and roadmap
 

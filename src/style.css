@@ -5,3 +5,21 @@
 .icon-button[aria-pressed=true]{background:#bca171d9;color:#21180f;border-color:#efd9aa}.actions{gap:8px}.actions .icon-button{font-size:13px}
 @media(min-width:801px) and (max-width:1140px){.caption{font-size:14px;max-width:170px}.actions span{display:none}.actions .icon-button{width:43px}}
 @media(max-width:450px){nav button{min-width:72px;padding:12px 10px;gap:6px}.actions{gap:5px}.actions .icon-button{min-width:38px;width:38px;height:42px}footer{left:16px;right:16px;gap:8px}}
+
+#fire-framing {
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-bottom: -10px;
+  max-width: 100%;
+}
+
+#fire-framing button {
+  min-width: 0;
+  padding: 11px 15px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+@media (max-width: 360px) {
+  #fire-framing button { padding-inline: 11px; }
+}
